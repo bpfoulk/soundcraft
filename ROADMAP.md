@@ -203,3 +203,9 @@ mutated and truncated movies. Field reports from the first public week are track
 | 2026-10-10 | major | Rewritten to the progress-docs standard: stage alpha (re-normalized the same day), two numbers (breadth ~70 %, ready ~40 %), dimension/feature/language tables, hours re-calibrated; area table moved to docs/target-app-parity.md, milestones to docs/roadmap.md |
 | 2026-10-07 | major | Menu parity 94 %, ~65 % estimated feature parity, alpha list |
 | 2026-10-06 | minor | Alpha and parity estimates |
+
+## Development tooling updates
+
+| Date | Change |
+| --- | --- |
+| 2026-10-15 | Added a local Visual Studio 2026 x64 solution with Cargo-backed Debug/Release builds, PDB/native debugger settings and documented build options. Application parity/readiness estimates are unchanged. See [setup](docs/visual-studio.md). |

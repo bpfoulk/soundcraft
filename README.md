@@ -388,3 +388,7 @@ Forks and modified versions must remove them.
 </p>
 
 Tracks and Groups, Clips, MIDI Editor, Memory Locations, and Undo History use movable panels. Edit and Mix retain separate arrangements; Clips and MIDI Editor belong to Edit. Transport, plug-in, and specialist utility windows retain their existing hosts. Drag a panel header to a target edge or another header. Its context menu offers Float Panel, Move Panel to Group, and Close Panel; the tab group's menu adds Float Tab Group and Close Tab Group. Existing panel toggles reopen panels at their saved location; Reset Panel Layout restores the app layout. Floating panels remain inside the current app window.
+
+## Windows development with Visual Studio 2026
+
+Open [SoundCraft.slnx](SoundCraft.slnx), choose **Debug | x64** and press **F5**. The project builds the Rust desktop app with Cargo and launches the native debugger. See [Visual Studio setup](docs/visual-studio.md) for prerequisites, output paths and options.

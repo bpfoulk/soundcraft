@@ -10,3 +10,9 @@ plan/
 /craft-fonts/
 plans/
 .DS_Store
+
+# Visual Studio local state
+/.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
